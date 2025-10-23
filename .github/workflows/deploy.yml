@@ -34,5 +34,5 @@ jobs:
       - name: Upload firmware with custom name
         uses: softprops/action-gh-release@v1
         with:
-          files: build/eureka-server.jar
+          files: target/eureka-server.jar
           tag_name: "2.0.4"
